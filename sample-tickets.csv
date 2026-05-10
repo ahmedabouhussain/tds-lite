@@ -1,0 +1,6 @@
+ticketCode,barcode,block,row,seat,category
+TKT-A-001,TDS-900001,A,1,1,VIP
+TKT-A-002,TDS-900002,A,1,2,VIP
+TKT-A-003,TDS-900003,A,1,3,Standard
+TKT-B-001,TDS-900004,B,2,1,Standard
+TKT-B-002,TDS-900005,B,2,2,Standard

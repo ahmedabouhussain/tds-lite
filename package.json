@@ -1,0 +1,31 @@
+{
+  "name": "tds-lite",
+  "version": "1.0.0",
+  "description": "TDS Lite - Ticket Distribution System",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "nodemon server/index.js",
+    "dev:client": "cd client && vite",
+    "build": "cd client && npm install && vite build",
+    "start": "node server/index.js",
+    "postinstall": "cd client && npm install"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "bwip-js": "^4.5.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7"
+  }
+}
